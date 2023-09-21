@@ -6,7 +6,7 @@ public class Arrays
         String[] strArray = {"Alpha","Bravo","charlie","Delta","Echo"};
         System.out.println(" ");
         for (iterate = 0; iterate < strArray.length; iterate++) {
-                System.out.println(strArray[iterate]);
+            System.out.println(strArray[iterate]);
         }
         for (iterate = 0; iterate < strArray.length; iterate++) {
             System.out.print(strArray[iterate]);
@@ -15,7 +15,7 @@ public class Arrays
         for (iterate = 0; iterate < strArray.length; iterate++) {
             System.out.print(strArray[iterate]);
             if (iterate < strArray.length - 1) {
-            System.out.print("-");
+                System.out.print("-");
             } 
         }  
     }
